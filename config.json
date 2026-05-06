@@ -1,15 +1,15 @@
 {
-  "Author": "XAiKO TANViR",
+  "Author": "SHAHADAT SAHU",
   "version": "2.0.0",
-  "language": "Bn",
+  "language": "en",
   "DeveloperMode": false,
   "autoCreateDB": true,
   "autoClean": true,
-  "allowInbox": true,
+  "allowInbox": false,
   "notiGroup": true,
   "NOTIFICATION": true,
   "EMAIL": "your email",
-  "PASSWORD": "007007",
+  "PASSWORD": "your password",
   "OTPKEY": "",
   "BOTNAME": "😙─꯭─⃝‌Bristy💋",
   "PREFIX": "/",
@@ -21,7 +21,7 @@
     "100044713412032"
   ],
   "NDH": ["100044713412032"],
-  "adminOnly": true,
+  "adminOnly": false,
   "ndhOnly": false,
   "adminPaOnly": false,
 

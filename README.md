@@ -158,10 +158,10 @@ ___
 
 ## 👨‍💻 ABOUT THE DEVELOPER
 
-**Name:** `SHAHADAT ISLAM`  
-**Nice Name:** `SA HU`  
+**Name:** `Rafi Bhai`  
+**Nice Name:** `Rafi`  
 **Profession:** `STUDENT & CHATBOT DEVELOPER`  
-**Location:** `KHAGRACHARI, BANGLADESH`
+**Location:** `kishorgonj, BANGLADESH`
 
 #### 📞 CONTACT
 - **WhatsApp:** [WhatsApp Me](https://wa.me/+8801305442771)

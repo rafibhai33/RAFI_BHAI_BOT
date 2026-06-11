@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const apiList = "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json";
+const apiList = "https://raw.githubusercontent.com/RAFI-BHAI/RAFI-BHAI/refs/heads/main/RAFI-BHAI.json";
 
 const getMainAPI = async () => (await axios.get(apiList)).data.simsimi;
 
@@ -26,13 +26,13 @@ module.exports.handleEvent = async function ({ api, event }) {
     "kiss de": "কিস দিস না তোর মুখে দূর গন্ধ কয়দিন ধরে দাঁত ব্রাশ করিস নাই🤬",
     "👍": "সর এখান থেকে লাইকার আবাল..!🐸🤣👍⛏️",
     "hi": "এত হাই-হ্যালো কর ক্যান প্রিও..!😜🫵",
-    "Rafi Bhai": "আমার বস কে না ডেকে চুদা খা",
+    "rafi": "আমার বস কে না ডেকে চুদা খা",
     "bot": "চুদা না খাইতে চাইলে ডাকিস না 😂",
     "good morning": "GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚",
     "good night": "Sweet Dream babu… তবে আগে RAFI বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",
-    "Rafi": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
-    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ RAFI BHAI ☜\nFacebook: https://www.facebook.com/profile.php?id=61590716697156\nWhatsApp: 01305442771",
+    "rafi koi": "উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",
+    "owner": "‎[𝐎𝐖𝐍𝐄𝐑:☞ RAFI BHAI ☜\nFacebook: https://www.facebook.com/profile.php?id=61590716697156/nWhatsApp: 01305442771",
     "admin": "He is RAFI BHAI তাকে সবাই Admin RAFI হিসেবে চিনে😘☺️",
     "babi": "এ তো হাছিনা হে মেরে দিলকি দারকান হে মেরি জান হে😍.",
     "chup": "তুই চুপ চুপ কর পাগল ছাগল",
@@ -43,14 +43,14 @@ module.exports.handleEvent = async function ({ api, event }) {
     "I love you": "মেয়ে হলে আমার বস Rafi এর ইনবক্সে এখুনি গুঁতা দিন🫢😻",
     "love you": "ভালোবাসা নামক আবলামী করতে চাইলে Boss Rafi এর ইনবক্সে গুতা দিন 😘",
     "by": "কিরে তুই কই যাস কোন মেয়ের সাথে চিপায় যাবি..!🌚🌶️",
-    "ami Rafi": "হ্যা বস কেমন আছেন..?☺️",
+    "ami rafi": "হ্যা বস কেমন আছেন..?☺️",
     "bot er baccha": "আমার বাচ্চা তো তোমার গার্লফ্রেন্ডের পেটে..!!🌚⛏️",
     "tor nam ki": "MY NAME IS ─꯭─⃝‌‌rafi bhai 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭💖",
-    "pic de": "এন থেকে সর দুরে গিয়া মর😒",
+    "bot bot": "আবার ডাকলে চুদতে চুদতে মেরে ফেলবো😒",
     "cudi": "এত চোদা চুদি করস কেনো..!🥱🌝🌚",
     "bal": "রাগ করে না সোনা পাখি 🥰",
     "heda": "এতো রাগ শরীরের জন্য ভালো না 🥰",
-    "boda": "ভাই তুই এত হাসিস না..!🌚🤣",
+    "dhn": "তর ধন আছে যে ধন ধন করস.!🌚🤣",
     "kire ki koros": "তোমার কথা ভাবতে ছি জানু 😚",
     "ki koros": "বস Rafi এর সাথে প্রেমে ব্যস্ত আছি 😏💘",
     "kire bot": "হ্যাঁ সব কেমন আছেন আপনার ওই খানে উম্মাহ 😘😽🙈",
@@ -107,7 +107,7 @@ module.exports.handleReply = async function ({ api, event, handleReply }) {
           name: module.exports.config.name,
           messageID: info.messageID,
           author: event.senderID,
-          type: "sahu"
+          type: "rafi"
         });
       },
       event.messageID

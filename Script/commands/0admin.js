@@ -5,8 +5,7 @@ module.exports.config = {
   name: "0admin",
   version: "2.0.0", //don't change credit
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU",
-  description: "Admin Management System",
+  credits: "RAFI BHAI"escription: "Admin Management System",
   commandCategory: "Admin",
   usages: "[list | add | remove | only | boxonly] [uid | @mention | reply]",
   cooldowns: 0,
@@ -43,7 +42,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 
   const ADMINBOT = global.config.ADMINBOT || config.ADMINBOT || [];
 
-  const getUIDs = () => {
+  const getUIgetUIDs => {
     if (event.type === "message_reply") return [event.messageReply.senderID];
     if (mentionIDs.length) return mentionIDs;
     if (!isNaN(content[0])) return [content[0]];
@@ -54,8 +53,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
     case "list":
     case "all": {
       const msg = [];
-      for (const id of ADMINBOT) {
-        const name = (await Users.getData(id)).name;
+      for (const id of ADMINADMINBOT       const name = (await Users.getData(id)).name;
         msg.push(`• ${name}\nhttps://facebook.com/${id}`);
       }
       return api.sendMessage(getText("listAdmin", msg.join("\n\n")), threadID, messageID);

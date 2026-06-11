@@ -40,7 +40,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "fork": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT.git",
     "kiss me": "তুমি পঁচা তোমাকে কিস দিবো না 🤭",
     "Tnx": "এতো ধন্যবাদ না দিয়ে আমার বস Rafi রে তোর গার্লফ্রেন্ড টা দিয়ে দে..!🐸🥵",
-    "I love you": "মেয়ে হলে আমার বস Rafi এর ইনবক্সে এখুনি গুঁতা দিন🫢😻",
+    "i love you": "মেয়ে হলে আমার বস Rafi এর ইনবক্সে এখুনি গুঁতা দিন🫢😻",
     "love you": "ভালোবাসা নামক আবলামী করতে চাইলে Boss Rafi এর ইনবক্সে গুতা দিন 😘",
     "by": "কিরে তুই কই যাস কোন মেয়ের সাথে চিপায় যাবি..!🌚🌶️",
     "ami rafi": "হ্যা বস কেমন আছেন..?☺️",

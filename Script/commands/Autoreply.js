@@ -27,7 +27,7 @@ module.exports.handleEvent = async function ({ api, event }) {
     "👍": "সর এখান থেকে লাইকার আবাল..!🐸🤣👍⛏️",
     "hi": "এত হাই-হ্যালো কর ক্যান প্রিও..!😜🫵",
     "Rafi Bhai": "আমার বস কে না ডেকে চুদা খা",
-    "pro": "Khud k0o KYa LeGend SmJhTi Hai 😂",
+    "bot": "চুদা না খাইতে চাইলে ডাকিস না 😂",
     "good morning": "GOOD MORNING দাত ব্রাশ করে খেয়ে নেও😚",
     "good night": "Sweet Dream babu… তবে আগে RAFI বস কে GN বলে নিও 😏💤",
     "tor ball": "~ এখনো বাল উঠে নাই নাকি তোমার?? 🤖",

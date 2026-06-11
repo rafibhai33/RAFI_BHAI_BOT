@@ -32,7 +32,7 @@ module.exports.run = async function ({ api, event }) {
 ║ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
 ║ fb.com/61590716697156
 ║ 💬 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :
-║ https://www.facebook.com/61590716697156
+║ https://www.facebook.com/profile.php?id=61590716697156
 ║ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
 ║ wa.me/01305442771
 ║ ✈️ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 :
